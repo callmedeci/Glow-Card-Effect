@@ -23,7 +23,7 @@ function App() {
     <section>
       <Button
         onClick={toggleTheme}
-        className='absolute top-10 left-10 cursor-pointer'
+        className='absolute top-10 left-10 cursor-pointer z-50'
         size='icon'
       >
         {isDark && <Moon size={48} color='var(--color-zinc-800)' />}
