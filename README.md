@@ -54,6 +54,41 @@ import { Button } from './components/ui/button';
   </Glow>
 </GlowArea>
 ```
+## Props
+
+### `GlowArea`
+
+The `GlowArea` component is the container for all `Glow` components. It ensures the glow effects are properly positioned and animated.
+
+```jsx
+GlowArea({ className, size = 300, children, ...props })
+```
+
+| Prop        | Type            | Default       | Description                          |
+|-------------|-----------------|---------------|--------------------------------------|
+| `className` | `string`        | `""`          | Additional Tailwind CSS classes.     |
+| `size`      | `number`        | `300`         | The size of the glow area in pixels. |
+| `children`  | `ReactNode`     | `null`        | The child elements to render.        |
+| `...props`  | `HTMLAttributes`| `{}`          | Additional HTML attributes.          |
+
+---
+
+### `Glow`
+
+The `Glow` component wraps your content and applies the glow effect.
+
+```jsx
+Glow({ color, className, children, ...props })
+```
+
+| Prop        | Type            | Default       | Description                          |
+|-------------|-----------------|---------------|--------------------------------------|
+| `color`     | `string`        | `#ffffff`     | The color of the glow effect.        |
+| `className` | `string`        | `""`          | Additional Tailwind CSS classes.     |
+| `children`  | `ReactNode`     | `null`        | The child elements to render.        |
+| `...props`  | `HTMLAttributes`| `{}`          | Additional HTML attributes.          |
+
+---
 
 ## Dependencies
 
