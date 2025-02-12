@@ -99,7 +99,7 @@ This project uses the following libraries:
 - **[tailwindcss-animate](https://github.com/jamiebuilds/tailwindcss-animate)**: For smooth animations.
 - **[Lucide React](https://lucide.dev/)**: For beautiful icons.
 - **[Radix UI](https://www.radix-ui.com/)**: For primitives like `Slot`.
-- 
+
 ## Acknowledgments
 
 - [shadcn](https://ui.shadcn.com/) for providing an amazing UI component library.
