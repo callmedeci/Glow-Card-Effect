@@ -2,17 +2,12 @@
 
 A reusable and customizable glow card effect component built with **shadcn**, **Tailwind CSS**, and **React**. This component allows you to create stunning glowing cards by wrapping your content in a `GlowArea` and `Glow` component.
 
----
-
 ## Features
 
 - **Reusable Components**: Use `GlowArea` and `Glow` to create glowing cards effortlessly.
 - **Customizable Glow Effect**: Adjust the glow color, size, and position dynamically.
 - **Built with Tailwind CSS**: Leverage the power of utility-first CSS for rapid development.
 - **Powered by shadcn**: Use shadcn's pre-built components for consistent and accessible UI.
-- **Smooth Animations**: Includes smooth hover and focus animations using `tailwindcss-animate`.
-
----
 
 ## Installation
 
@@ -38,8 +33,6 @@ A reusable and customizable glow card effect component built with **shadcn**, **
 
 5. Open your browser and visit `http://localhost:5173` to view the project.
 
----
-
 ## Usage
 
 ### 1. Import the Components
@@ -62,8 +55,6 @@ import { Button } from './components/ui/button';
 </GlowArea>
 ```
 
----
-
 ## Dependencies
 
 This project uses the following libraries:
@@ -73,21 +64,7 @@ This project uses the following libraries:
 - **[tailwindcss-animate](https://github.com/jamiebuilds/tailwindcss-animate)**: For smooth animations.
 - **[Lucide React](https://lucide.dev/)**: For beautiful icons.
 - **[Radix UI](https://www.radix-ui.com/)**: For primitives like `Slot`.
-
----
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/YourFeatureName`).
-3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/YourFeatureName`).
-5. Open a pull request.
-
----
-
+- 
 ## Acknowledgments
 
 - [shadcn](https://ui.shadcn.com/) for providing an amazing UI component library.
@@ -95,7 +72,5 @@ Contributions are welcome! If you'd like to contribute, please follow these step
 - [Vite](https://vitejs.dev/) for the fast development experience.
 
 ---
-
 Enjoy using the Glow Cards component! ✨
 
----
