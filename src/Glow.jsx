@@ -69,7 +69,7 @@ export function Glow({ color, className, children, ...props }) {
         }}
         className={cn(
           className,
-          'absolute pointer-events-none inset-0 dark:mix-blend-lighten mix-blend-multiply after:content-[""] after:absolute after:bg-background/90 after:inset-0.25 after:rounded-inherit'
+          'absolute pointer-events-none inset-0 dark:mix-blend-lighten mix-blend-multiply after:content-[""] after:absolute after:bg-background/80 after:inset-0.25 after:rounded-inherit'
         )}
       ></div>
       {children}

@@ -1,4 +1,5 @@
 import { Moon, Sun } from 'lucide-react';
+import { useState } from 'react';
 import { Button } from './components/ui/button';
 import {
   Card,
@@ -9,7 +10,6 @@ import {
   CardTitle,
 } from './components/ui/card';
 import { Glow, GlowArea } from './Glow';
-import { useState } from 'react';
 
 function App() {
   const [isDark, setIsDark] = useState(false);
@@ -20,7 +20,7 @@ function App() {
   }
 
   return (
-    <section className='w-full min-h-dvh flex items-center justify-center p-10 relative'>
+    <section>
       <Button
         onClick={toggleTheme}
         className='absolute top-10 left-10 cursor-pointer'
@@ -30,8 +30,8 @@ function App() {
         {!isDark && <Sun size={48} color='var(--color-zinc-200)' />}
       </Button>
 
-      <GlowArea className='flex gap-5'>
-        <Glow color='var(--color-rose-800)' className='rounded-xl'>
+      <GlowArea className='gap-5 flex items-center justify-center p-48'>
+        <Glow color='red' className='rounded-xl'>
           <Card className='max-w-lg'>
             <CardHeader>
               <CardTitle>Glow card 1</CardTitle>
