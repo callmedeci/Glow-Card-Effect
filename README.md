@@ -1,4 +1,4 @@
-# Glow Cards ✨
+# Glow Cards
 
 A reusable and customizable glow card effect component built with **shadcn**, **Tailwind CSS**, and **React**. This component allows you to create stunning glowing cards by wrapping your content in a `GlowArea` and `Glow` component.
 
@@ -107,5 +107,5 @@ This project uses the following libraries:
 - [Vite](https://vitejs.dev/) for the fast development experience.
 
 ---
-Enjoy using the Glow Cards component! ✨
+Enjoy using the Glow Cards component!
 
